@@ -1,12 +1,41 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace InterfaceExercise
 {
     class Program
     {
+        
+        
+
         static void Main(string[] args)
         {
-            //TODO Be sure to follow BEST PRACTICES when creating classes and interfaces
+            var car = new Car();
+            var truck = new Truck();
+            var suv = new SUV();
+            var vehicles = new List<IVehicle>() { car, truck, suv };
+            
+
+
+
+            
+            
+
+
+
+            
+            
+           
+
+           
+
+        
+
+
+            
+
+
+            //Done Be sure to follow BEST PRACTICES when creating classes and interfaces
 
             //Create 2 Interfaces called IVehicle & ICompany
 
